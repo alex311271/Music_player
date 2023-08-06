@@ -1,0 +1,316 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+}
+html {
+    box-sizing: border-box;
+}
+body{
+  font-family: "Istok Web";
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.desk1{
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+  max-width: 1440px;
+  margin: auto;
+
+}
+.link:hover{
+  text-decoration: underline;
+}
+nav{
+  margin-left: 122px;
+  padding-top: 47px;
+}
+.nav{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.nav-logo{
+  font-family: "Libre Barcode 128 Text";
+  font-size: 80px;
+  font-weight: 400;
+}
+.nav-links{
+  display: flex;
+  align-items: center;
+  margin-left: 190px;
+}
+ul li{
+  display: inline;
+  list-style: none;
+  padding-right: 100px;
+  font-family: "Istok Web";
+  font-size: 18px;
+  font-weight: 400;
+}
+.main-txt{
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  padding-top: 0px;
+  margin-left: 0px;
+}
+h1{
+  width: 412px;
+  height: 264px;
+  font-family: "Kenia";
+  font-size: 150px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 164px;
+  padding-left: 115px;
+  padding-bottom: 0;
+  line-height: 1;
+}
+
+.text{
+  width: 290px;
+  height: 63px;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 175px;
+  padding-left: 122px;
+  padding-bottom: 231px;
+  font-family: Istok Web;
+}
+.phone{
+  margin-left: 865px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0px;
+  position: absolute;
+  top: 127px;
+  width: 500px;
+  height: 888.006px;
+  z-index: 2;
+}
+.kabel{
+  margin-top: 0;
+  margin-left: 913px;
+  padding-top: 0;
+  position: absolute;
+  top: 862px;
+  width: 350px;
+  height: 162px;
+  z-index: 1;
+}
+.desk2{
+  position: relative;
+  box-sizing: border-box;
+  max-width: 1440px;
+  height: 1024px;
+  margin: auto;
+  background-color: #D53005;  
+}
+.box1{
+  display: flex;
+  align-items: center;
+}
+.buttons{
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  left: 122px;
+  top: 385px;
+}
+.title{
+  font-family: "Karla";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 83px;
+  padding-left: 122px;
+  color: #fff;
+}
+.cover{
+  width: 1000px;
+  height: 666.5px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 440px;
+  top: 179px;
+} 
+.buttons{
+  position: absolute;
+  top: 385px;
+  display: inline-block;
+}
+
+.btn1{
+  display: block;
+  width: 382px;
+  height: 83px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+  background: radial-gradient(2086.98% 134.85% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+  box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.50);
+  color: #FFF;
+  font-family: Karla;
+  font-size: 40px;
+  margin-bottom: 88px;
+  }
+.btn2{
+  display: block;
+  width: 382px;
+  height: 83px;
+  border: 1px solid rgba(0, 0, 0, 0.50);
+  background: radial-gradient(2086.98% 134.85% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+  box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.10), 4px 4px 4px 0px rgba(0, 0, 0, 0.50);
+  color: #FFF;
+  font-family: Karla;
+  font-size: 40px;
+}
+.desk3{
+  position: relative;
+  box-sizing: border-box;
+  background:linear-gradient(180deg, #D53005 0%, #000 6.04%);
+  color: #fff;
+  max-width: 1440px;
+  height: 1024px;
+  margin: auto;
+}
+.main_txt{
+  width: 969px;
+  height: 72px;
+  color: #FFF;
+  font-family: Karla;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 275px;
+  top: 476px;
+}
+.desk4{
+  position: relative;
+  box-sizing: border-box;
+  max-width: 1440px;
+  height: 1024px;
+  margin: auto;
+  background-color: #D53005;
+}
+#win{
+  display: block;
+  width: 240px;
+  height: 60px;
+  border-radius: 30px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  background: rgba(2, 2, 2, 0.90);
+  border: none;
+  margin-bottom: 48px;
+  background: rgba(2, 2, 2, 0.90);
+  box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.10), 
+    4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#mac{
+  display: block;
+  width: 240px;
+  height: 60px;
+  border-radius: 30px;
+  border: none;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid rgba(0, 0, 0, 0.70);
+  background: #E3E3E3;
+  box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.10), 
+    4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.buttons1{
+  position: absolute;
+  /* display: inline-block; */
+  top: 254px;
+  left: 110px;
+}
+.head{
+  color: #FFF;
+  width: 419px;
+  height: 28px;
+  font-family: Montserrat;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 17px;
+}
+.txt{
+  width: 432px;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-text{
+  position: absolute;
+  bottom: 312px;
+  left: 25px;
+  border-bottom: 1px;
+  border-color: #000000;
+}
+span.txt{
+  color: #000;
+}
+.line1{
+  position: absolute;
+  width: 379.005px;
+  height: 1px;
+  left: 27px;
+  margin-top: 0.02px;
+  background: rgba(0, 0, 0, 0.70);
+}
+.laptop{
+  position: absolute;
+  left: 455.38px;
+  top: 174.8;
+  width: 934.196px;
+  height: 611.98px;
+  border: solid 2px;
+  border-radius: 22px 22px 0px 0px;
+  background: var(--default-shade-black, #000);
+}
+.skreen{
+  width: 886px;
+  height: 583px;
+  background: linear-gradient(270deg, #484D54 0%, #343B43 100%);
+  position: absolute;
+  top: 28.98px;
+  left: 24.34px;
+}
+.txt-logo{
+  width: 56.794px;
+  height: 38.249px;
+  width: 56.794px;
+  height: 38.249px;
+  color: #C1C4CB;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 15.07px;
+  margin-left: 23.18px;
+}
+.mplogo{
+  position: absolute;
+  top: 4.64px;
+  left: 140.05px;
+  padding: 0;
+  border-radius: 57.953px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  box-shadow: -4px -4px 15px 0px rgba(255, 255, 255, 0.06), 4px 4px 4px 0px #404449;
+ 
+}
