@@ -257,7 +257,7 @@ h1{
 .main-text{
   position: absolute;
   bottom: 312px;
-  left: 25px;
+  left: 24px;
   border-bottom: 1px;
   border-color: #000000;
 }
@@ -266,18 +266,25 @@ span.txt{
 }
 .line1{
   position: absolute;
-  width: 379.005px;
+  width: 379px;
   height: 1px;
-  left: 27px;
+  left: 26px;
   margin-top: 0.02px;
   background: rgba(0, 0, 0, 0.70);
 }
 .laptop{
+  width: 1168px;
+  height: 685px;
   position: absolute;
-  left: 455.38px;
-  top: 174.8;
-  width: 934.196px;
-  height: 611.98px;
+  left: 336px;
+  top: 169px;
+}
+.border-screen{
+  position: absolute;
+  left: 119.38px;
+  /* top: 0; */
+  width: 946px;
+  height: 642px;
   border: solid 2px;
   border-radius: 22px 22px 0px 0px;
   background: var(--default-shade-black, #000);
@@ -312,5 +319,35 @@ span.txt{
   border-radius: 57.953px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
   box-shadow: -4px -4px 15px 0px rgba(255, 255, 255, 0.06), 4px 4px 4px 0px #404449;
- 
+ }
+.skreen-wrap{
+  width: 946px;
+  height: 34.77px;
+  background-color: #1A202C;
+  color: var(--default-gray-500, #A0AEC0);
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 90%; 
+  position: absolute;
+  bottom: 0;
 }
+.base-img{
+  position: absolute;
+  bottom: 22.66px;
+  z-index: 1;
+}
+.groove-img{
+  z-index: 2;
+  position: absolute;
+  bottom: 28px;
+  left: 488px;
+}
+.bottom-curve-img{
+  position: absolute;
+  left: 0;
+  bottom: 9.52px;
+}
+
